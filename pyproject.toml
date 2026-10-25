@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "meeting-notes-summarizer"
+version = "0.1.0"
+description = "Local-first CLI that turns meeting transcripts into summaries, decisions, action items, and plain-English recaps. Optional polish via any OpenAI-compatible endpoint (default: Ollama on localhost). By Asdale Dynamics, LLC."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { file = "LICENSE" }
+authors = [{ name = "Asdale Dynamics, LLC" }]
+keywords = ["meetings", "transcripts", "local-first", "ollama", "llm", "cli"]
+classifiers = [
+  "Environment :: Console",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+]
+[project.scripts]
+meetingsummarizer = "meeting_notes_summarizer.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

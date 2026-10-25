@@ -1,0 +1,27 @@
+STANDUP: Thursday Product Sync
+
+Dana: Okay, quick sync. The big item is the new onboarding flow. We decided to ship the three-step version instead of the wizard.
+
+Marcus: The wizard felt heavy. I agree, three steps is right.
+
+Dana: Action item: Marcus will wire up the progress bar by Friday.
+
+Marcus: Will do, should take a day. Question: do we keep the old flow behind a flag during rollout?
+
+Dana: Yes, keep it behind a flag. Our decision is to roll out to 10% of users first.
+
+Priya: I spoke with support. They reported 40% fewer tickets from the pilot group. That is important data.
+
+Marcus: Nice. Todo: write the rollout checklist before launch.
+
+Priya: What should we do about users who abandon step 2?
+
+Dana: Let's add a save-for-later button. Decision: approved for the next sprint.
+
+Marcus: What is our goal date for the 10% rollout?
+
+Dana: End of next week. Priya, can you draft the announcement email?
+
+Priya: Sure. On a separate note, the budget for the design tools is due this week.
+
+Dana: We agreed to renew only the two licenses we actually use.
